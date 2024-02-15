@@ -6,13 +6,15 @@
             "package": "ancestorpack1",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
-            "versionDescription": ""
+            "versionDescription": "",
+            "ancestorVersion": "NONE"
         }
     ],
     "namespace": "Tekunda",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "55.0",
     "packageAliases": {
-        "ancestorpack1": "0HoP50000000NW5KAM"
+        "ancestorpack1": "0HoP50000000NW5KAM",
+        "ancestorpack1@2.0.0-1": "04tP500000010CTIAY"
     }
 }
