@@ -31,6 +31,7 @@
     "packageAliases": {
         "ancestorpack1": "0HoP50000000NW5KAM",
         "ancestorpack2": "0HoP50000000NXhKAM",
-        "noancestorpack": "0HoP50000000NZJKA2"
+        "noancestorpack": "0HoP50000000NZJKA2",
+        "noancestorpack@9.0.0-1": "04tP500000010pBIAQ"
     }
 }
