@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "namespace": "",
+  "namespace": "Tekunda",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "55.0"
 }
