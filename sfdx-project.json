@@ -1,11 +1,45 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "ancestorpack1",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "versionDescription": ""
+        },
+        {
+            "path": "force-app",
+            "package": "ancestorpack2",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "versionDescription": ""
+        },
+        {
+            "path": "force-app",
+            "package": "noancestorpack",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "versionDescription": ""
+        },
+        {
+            "path": "force-app",
+            "package": "yoyoyo",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "versionDescription": ""
+        }
+    ],
+    "namespace": "Tekunda",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "55.0",
+    "packageAliases": {
+        "ancestorpack1": "0HoP50000000NW5KAM",
+        "ancestorpack2": "0HoP50000000NXhKAM",
+        "noancestorpack": "0HoP50000000NZJKA2",
+        "yoyoyo": "0HoP50000000PUfKAM"
     }
-  ],
-  "namespace": "Tekunda",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "55.0"
 }
