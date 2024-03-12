@@ -1,45 +1,45 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true,
-      "package": "beforesync1",
-      "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT",
-      "versionDescription": ""
-    },
-    {
-      "path": "force-app",
-      "package": "beforesync2",
-      "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT",
-      "default": false,
-      "versionDescription": ""
-    },
-    {
-      "path": "force-app",
-      "package": "testsync123",
-      "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT",
-      "default": false,
-      "versionDescription": ""
-    },
-    {
-      "path": "force-app",
-      "package": "testsync1234",
-      "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT",
-      "default": false,
-      "versionDescription": ""
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "ancestorpack1",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "versionDescription": ""
+        },
+        {
+            "path": "force-app",
+            "package": "ancestorpack2",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "versionDescription": ""
+        },
+        {
+            "path": "force-app",
+            "package": "noancestorpack",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "versionDescription": ""
+        },
+        {
+            "path": "force-app",
+            "package": "nws",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "versionDescription": ""
+        }
+    ],
+    "namespace": "Tekunda",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "55.0",
+    "packageAliases": {
+        "ancestorpack1": "0HoP50000000NW5KAM",
+        "ancestorpack2": "0HoP50000000NXhKAM",
+        "noancestorpack": "0HoP50000000NZJKA2",
+        "nws": "0HoP50000000QSLKA2"
     }
-  ],
-  "namespace": "Tekunda",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "55.0",
-  "packageAliases": {
-    "beforesync1": "0HoP50000000PEXKA2",
-    "beforesync2": "0HoP50000000PHlKAM",
-    "testsync123": "0HoP50000000PRRKA2",
-    "testsync1234": "0HoP50000000PWHKA2"
-  }
 }
